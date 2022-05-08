@@ -1,0 +1,176 @@
+
+                    *{
+                    margin: 0;
+                    padding: 0;
+                    transition: 0.5s;
+                    font-family:'Montserrat', sans-serif;
+                    }
+                    .container-fluid{
+                        width: 100%;
+                        height: 20vh;
+                    }
+                    .header{ 
+                        width: 1200px;
+                        height: 70px;
+                        margin: auto;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                    }
+                    .logo{ 
+                        font-size: 30px;
+                        cursor: pointer;
+                    }
+                    .header nav ul{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        list-style: none;
+                    }
+                    .header nav ul li{
+                        margin-right: 40px;
+                        cursor: pointer;
+                        font-weight: bold;
+                        font-size: 15px;
+                    }
+                    .header nav ul li:hover{
+                        color: #6c63ff;
+                    }
+                        .btn{
+                            width: 150px;
+                            height: 45px;
+                            font-weight: bold;
+                            font-size: 15px;
+                            color: #fff;
+                            background-color: #6c63ff;
+                            cursor: pointer;
+                            border-radius: 30px;
+                        }
+                        .container{
+                            width: 1200px;
+                            margin: auto;
+                            display: flex;
+                            justify-content: space-between;
+                            padding-top: 70px;
+
+                        }
+                        .container h1{
+                            font-size: 60px;
+                            color: #222;
+                            margin-top: 20px;
+                        }
+                        .container p{ 
+                            line-height: 25px; 
+                            font-size: 17px;
+                            color: #444;
+                            margin-top: 20px;
+                        }
+                        .container .btn{
+                            margin-top: 20px;
+                            width: 200px;
+                            height: 50px;
+                            font-size: 17px;
+                            background-color: #6c63ff;
+                        }
+                        .image img{
+                            width: 600px;
+                        }
+                        
+                        .containerr form{width:450px ;
+                            height:500 px;
+                            border: 1px solid #4a1686; 
+                            border-radius: 20px;
+                            margin: 50px auto;}
+                            
+                        .containerr h3{color: #4a1686; 
+                            font-weight: bold;
+                            font-size: 40px; 
+                            text-align: center;}
+                        .containerr input[type="text"] ,[type="password"]{
+                            width: 300px;
+                            height: 60px;
+                            margin-bottom: 20px;
+                            margin-left: 45px;
+                            outline: none;
+                            border: 1px solid #4a1686;
+                            border-radius: 10px;
+                        }
+                        .containerr input[type="checkbox"]{
+                            margin: 15px 0 20px 150px ;
+                        }
+                        .containerr input[type="checkbox"]::after{
+                            content: "Remember me";
+                            color: #4a1686;
+                            line-height: 1;
+                            position: absolute;
+                            left: 650px;
+                        }
+                        .containerr label{
+                            color: #4a1686;
+                            line-height: 1;
+                            position: absolute;
+                            left: 650px;}
+                        .containerr select{
+                            color: #4a1686;
+                            line-height: 1;
+                            position: absolute;
+                            left: 580px;
+                        }
+
+                        .container3{
+                            margin: 0;
+                            padding: 0;
+                            box-sizing: border-box;
+                            font-family: 'poppins' , sans-serif;
+                        }
+
+                        .container3{
+                            display: flex;
+                            justify-content: center;
+                            align-items:center;
+                            min-height: 100vh;
+                            background: #252839;
+                            
+                        }
+                        .container3 h4 { 
+                            position: relative;  
+                            color: #252839;
+                            font-size: 9vw;
+                            -webkit-text-stroke: 0.3vw #383d52;
+                            text-transform: uppercase;
+                        }
+                        h4::before{
+                            content: attr(data-text);
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 0;
+                            height: 100%;
+                            color: #01fe87;
+                            -webkit-text-stroke: 0vw #383d52;
+                            border-right: 2px solid #01fe87;
+                            overflow: hidden;
+                            animation: animate 6s linear infinite;
+
+                        }
+                        @keyframes animate{
+                            0%,10%,100%{
+                                width: 0;
+                            }
+                            70%,90%{
+                                width: 100%;
+                            }
+                        }
+                        .container3 p{ 
+                            line-height: 25px; 
+                            font-size: 17px;
+                            color: rgb(224, 209, 209);
+                            margin-top: 20px;}
+
+                            .images img{
+                                width: 440px;
+                                height: 440px;
+                                
+                            
+
+                            }
